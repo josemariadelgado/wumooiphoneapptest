@@ -15,6 +15,7 @@
 		4602CAEF1C870E6500689814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4602CAED1C870E6500689814 /* LaunchScreen.storyboard */; };
 		4602CAFA1C870E6500689814 /* wumoo_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602CAF91C870E6500689814 /* wumoo_testTests.swift */; };
 		4602CB051C870E6500689814 /* wumoo_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602CB041C870E6500689814 /* wumoo_testUITests.swift */; };
+		4603CF291C88777300FDD741 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603CF281C88777300FDD741 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4602CB001C870E6500689814 /* wumoo-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wumoo-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4602CB041C870E6500689814 /* wumoo_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wumoo_testUITests.swift; sourceTree = "<group>"; };
 		4602CB061C870E6500689814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4603CF281C88777300FDD741 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				4602CAE11C870E6500689814 /* AppDelegate.swift */,
 				4602CAE31C870E6500689814 /* ViewController.swift */,
+				4603CF281C88777300FDD741 /* TableViewController.swift */,
 				4602CAE51C870E6500689814 /* Main.storyboard */,
 				4602CAEB1C870E6500689814 /* Assets.xcassets */,
 				4602CAED1C870E6500689814 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				4602CAEA1C870E6500689814 /* wumoo_test.xcdatamodeld in Sources */,
 				4602CAE41C870E6500689814 /* ViewController.swift in Sources */,
 				4602CAE21C870E6500689814 /* AppDelegate.swift in Sources */,
+				4603CF291C88777300FDD741 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				4602CB0B1C870E6500689814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4602CB0C1C870E6500689814 /* Build configuration list for PBXNativeTarget "wumoo-testTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				4602CB0E1C870E6500689814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4602CB0F1C870E6500689814 /* Build configuration list for PBXNativeTarget "wumoo-testUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				4602CB111C870E6500689814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
